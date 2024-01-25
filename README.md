@@ -1,6 +1,6 @@
 Learning Log
 
-The Learning Log is a Web Application designed to help users log and organize topics of interest, make journal entries as they learn about each topic, and provide a personalized learning experience. Users can register, log in, create topics, add journal entries, and manage their learning journey.
+The Learning Log is a Web Application designed to help users to log and organize topics of interest, make journal entries as they learn about each topic, and provide a personalized learning experience. Users can register, log in, create topics, add journal entries, and manage their learning journey.
 
 Features:
 
