@@ -15,5 +15,6 @@ The Learning Log is a Web Application designed to help users to log and organize
 - Cascading Style Sheets (CSS)
 - Bootstrap (Framework)
 - Django
+- SQLite
 - Git<br><br>
 ## Lessons Learnt
