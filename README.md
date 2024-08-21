@@ -1,8 +1,9 @@
-Learning Log
+# Learning Log Web App
+## About The Project
 
 The Learning Log is a Web Application designed to help users to log and organize topics of interest, make journal entries as they learn about each topic, and provide a personalized learning experience. Users can register, log in, create topics, add journal entries, and manage their learning journey.
 
-Features:
+### Features:
 
 1.User Authentication: The Learning Log web app provides users with the capability to register an account, log into their accounts, and log out when needed. This essential feature safeguards user data, ensuring that only authorized individuals can access and make modifications to their learning topics and entries, enhancing the overall security of the platform.
 
