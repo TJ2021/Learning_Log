@@ -7,6 +7,12 @@ The Learning Log is a Web Application designed to help users to log and organize
 
 1.User Authentication: The Learning Log web app provides users with the capability to register an account, log into their accounts, and log out when needed. This essential feature safeguards user data, ensuring that only authorized individuals can access and make modifications to their learning topics and entries, enhancing the overall security of the platform.
 
-2.Topic management: The Learning Log web app seamlessly integrates the creation of new learning topics and the addition, editing, or deletion of entries within each topic. This robust feature serves as the core functionality of this application.
+2.Topic management: The Learning Log web app seamlessly integrates the creation of new learning topics and the addition, editing, or deletion of entries within each topic. This robust feature serves as the core functionality of this application.<br><br>
 
-Skills: Python · HTML5 · Cascading Style Sheets (CSS) · Bootstrap (Framework) · Django · MySQL
+### Built With:
+- Python
+- HTML5
+- Cascading Style Sheets (CSS)
+- Bootstrap (Framework)
+- Django
+- Git
