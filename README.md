@@ -18,3 +18,5 @@ The Learning Log is a Web Application designed to help users to log and organize
 - SQLite
 - Git<br><br>
 ## Lessons Learnt
+- Gained in-depth knowledge of building full-stack web applications using the Django web framework, including the implementation of views, templates, models, and handling database migrations.
+- Developed skills in using the Bootstrap front-end framework to create responsive and visually appealing user interfaces.
