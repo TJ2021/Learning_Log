@@ -5,17 +5,18 @@ from .forms import TopicForm, EntryForm
 from django.http import Http404
 
 
-# Create your views here.
-
+# The index view handles the rendering of the home page of the application.
 def index(request):
     return render(request, 'learning_logs/index.html')
 
+# The topics view displays a list of topics for the logged-in user.
 @login_required
 def topics(request):
     topics = Topic.objects.filter(owner=request.user).order_by('date_added')
     context = {'topics': topics}
     return render(request, 'learning_logs/topics.html', context)
 
+# The topic view displays a single topic and all its associated entries.
 @login_required
 def topic(request, topic_id):
     topic = Topic.objects.get(id=topic_id)
@@ -24,7 +25,8 @@ def topic(request, topic_id):
     entries = topic.entry_set.order_by('-date_added')
     context = {'topic': topic, 'entries': entries}
     return render(request, 'learning_logs/topic.html', context)
-
+    
+# The new_topic view handles the creation of a new topic.
 @login_required
 def new_topic(request):
     if request.method !='POST':
@@ -39,6 +41,8 @@ def new_topic(request):
     context = {'form': form}
     return render(request, 'learning_logs/new_topic.html', context)
 
+
+# The new_entry view handles the creation of a new entry for a specific topic.
 @login_required
 def new_entry(request, topic_id):
     topic = Topic.objects.get(pk=topic_id)
@@ -55,6 +59,7 @@ def new_entry(request, topic_id):
     context = {'form': form, 'topic':topic}
     return render(request, 'learning_logs/new_entry.html', context)
 
+# The edit_entry view handles the editing of an existing entry.
 @login_required
 def edit_entry(request,entry_id):
     entry = Entry.objects.get(id=entry_id)
